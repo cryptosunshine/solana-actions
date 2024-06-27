@@ -1,25 +1,31 @@
 {
-  "name": "@dialectlabs/actions",
-  "version": "0.0.0",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dialectlabs/actions"
-  },
+  "name": "solana-blink",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "tsx watch examples/index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@hono/node-server": "^1.11.3",
-    "@hono/swagger-ui": "^0.3.0",
-    "@hono/zod-openapi": "^0.14.5",
-    "@jup-ag/api": "^6.0.23",
-    "@solana/web3.js": "^1.91.8",
-    "hono": "^4.4.7"
+    "@solana/actions": "^1.0.2",
+    "@solana/spl-token": "^0.4.7",
+    "@solana/spl-token-metadata": "^0.1.4",
+    "@solana/web3.js": "^1.93.2",
+    "dotenv": "^16.4.5",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1",
-    "prettier": "^3.3.2"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
