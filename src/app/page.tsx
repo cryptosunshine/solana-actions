@@ -93,7 +93,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            Learn more about Ton Blockchain
+            Learn more about Fluff TON
           </a>
         </div>
       </footer>
